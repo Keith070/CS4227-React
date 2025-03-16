@@ -1,0 +1,223 @@
+2024-11-24 15:51:06,904 - INFO - Loading dataset: 1
+2024-11-24 15:51:06,913 - INFO - Preprocessing data...
+2024-11-24 15:51:06,914 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 15:51:06,914 - INFO - Vectorizing data...
+2024-11-24 15:51:06,915 - INFO - Vectorization complete.
+2024-11-24 15:51:08,444 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 15:51:08,447 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 15:51:08,513 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 15:51:08,514 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 15:51:08,514 - INFO - Evaluating model...
+2024-11-24 15:51:08,514 - INFO - Accuracy: 56.00%
+2024-11-24 15:51:08,514 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 15:51:11,845 - INFO - Exiting email classification system.
+2024-11-24 15:52:38,227 - INFO - Loading dataset: 1
+2024-11-24 15:52:38,239 - INFO - Preprocessing data...
+2024-11-24 15:52:38,242 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 15:52:38,242 - INFO - Vectorizing data...
+2024-11-24 15:52:38,247 - INFO - Vectorization complete.
+2024-11-24 15:52:41,687 - INFO - Choosing random_forest classifier with hyperparameter tuning.
+LoggingObserver: {'accuracy': '60.00%', 'confusion_matrix': [[2, 7, 0], [1, 13, 0], [0, 2, 0]]}
+2024-11-24 15:52:49,458 - INFO - Best random_forest Classifier Accuracy: 0.6
+2024-11-24 15:52:49,458 - INFO - Best Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+2024-11-24 15:52:49,458 - INFO - Evaluating model...
+2024-11-24 15:52:49,458 - INFO - Accuracy: 60.00%
+2024-11-24 15:52:49,458 - INFO - Confusion Matrix:
+[[ 2  7  0]
+ [ 1 13  0]
+ [ 0  2  0]]
+LoggingObserver: {'accuracy': '60.00%', 'confusion_matrix': [[2, 7, 0], [1, 13, 0], [0, 2, 0]]}
+2024-11-24 15:53:15,460 - INFO - Loading dataset: 2
+2024-11-24 15:53:15,470 - INFO - Preprocessing data...
+2024-11-24 15:53:15,471 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 15:53:15,472 - INFO - Vectorizing data...
+2024-11-24 15:53:15,474 - INFO - Vectorization complete.
+2024-11-24 15:53:16,752 - INFO - Choosing random_forest classifier with hyperparameter tuning.
+LoggingObserver: {'accuracy': '82.35%', 'confusion_matrix': [[0, 0, 1], [0, 1, 1], [0, 1, 13]]}
+2024-11-24 15:53:24,534 - INFO - Best random_forest Classifier Accuracy: 0.8235294117647058
+2024-11-24 15:53:24,534 - INFO - Best Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+2024-11-24 15:53:24,534 - INFO - Evaluating model...
+2024-11-24 15:53:24,534 - INFO - Accuracy: 82.35%
+2024-11-24 15:53:24,535 - INFO - Confusion Matrix:
+[[ 0  0  1]
+ [ 0  1  1]
+ [ 0  1 13]]
+LoggingObserver: {'accuracy': '82.35%', 'confusion_matrix': [[0, 0, 1], [0, 1, 1], [0, 1, 13]]}
+2024-11-24 15:57:22,560 - INFO - Loading dataset: 1
+2024-11-24 15:57:22,571 - INFO - Preprocessing data...
+2024-11-24 15:57:22,573 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 15:57:22,574 - INFO - Vectorizing data...
+2024-11-24 15:57:22,576 - INFO - Vectorization complete.
+2024-11-24 15:57:23,874 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 15:57:23,874 - INFO - Performing grid search for hyperparameter tuning.
+2024-11-24 15:57:23,936 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 15:57:23,936 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 15:57:23,936 - INFO - Evaluating model...
+2024-11-24 15:57:23,937 - INFO - Accuracy: 56.00%
+2024-11-24 15:57:23,937 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 15:59:37,193 - INFO - Exiting email classification system.
+2024-11-24 15:59:44,797 - INFO - Loading dataset: 1
+2024-11-24 15:59:44,808 - INFO - Preprocessing data...
+2024-11-24 15:59:44,810 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 15:59:44,810 - INFO - Vectorizing data...
+2024-11-24 15:59:44,815 - INFO - Vectorization complete.
+2024-11-24 15:59:46,351 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 15:59:46,351 - INFO - Performing grid search for hyperparameter tuning.
+2024-11-24 15:59:46,421 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 15:59:46,422 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 15:59:46,422 - INFO - Evaluating model...
+2024-11-24 15:59:46,422 - INFO - Accuracy: 56.00%
+2024-11-24 15:59:46,422 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:00:23,134 - INFO - Exiting email classification system.
+2024-11-24 16:00:27,020 - INFO - Loading dataset: 2
+2024-11-24 16:00:27,034 - INFO - Preprocessing data...
+2024-11-24 16:00:27,038 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:00:27,038 - INFO - Vectorizing data...
+2024-11-24 16:00:27,040 - INFO - Vectorization complete.
+2024-11-24 16:00:28,347 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:00:28,348 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 82.35%
+2024-11-24 16:00:28,410 - INFO - Best svm Classifier Accuracy: 0.8235294117647058
+2024-11-24 16:00:28,411 - INFO - Best Parameters: {'C': 1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:00:28,411 - INFO - Evaluating model...
+2024-11-24 16:00:28,412 - INFO - Accuracy: 82.35%
+2024-11-24 16:00:28,412 - INFO - Confusion Matrix:
+[[ 0  0  1]
+ [ 0  1  1]
+ [ 0  1 13]]
+LoggingObserver: Accuracy: 82.35%
+2024-11-24 16:01:28,187 - INFO - Exiting email classification system.
+2024-11-24 16:01:35,959 - INFO - Loading dataset: 1
+2024-11-24 16:01:35,969 - INFO - Preprocessing data...
+2024-11-24 16:01:35,971 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:01:35,971 - INFO - Vectorizing data...
+2024-11-24 16:01:35,972 - INFO - Vectorization complete.
+2024-11-24 16:01:37,987 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:01:37,987 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:01:38,047 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 16:01:38,048 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:01:38,048 - INFO - Evaluating model...
+2024-11-24 16:01:38,048 - INFO - Accuracy: 56.00%
+2024-11-24 16:01:38,049 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:02:33,295 - INFO - Exiting email classification system.
+2024-11-24 16:03:35,120 - INFO - Loading dataset: 2
+2024-11-24 16:03:35,130 - INFO - Preprocessing data...
+2024-11-24 16:03:35,133 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:03:35,134 - INFO - Vectorizing data...
+2024-11-24 16:03:35,136 - INFO - Vectorization complete.
+2024-11-24 16:03:36,980 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:03:36,981 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 82.35%
+2024-11-24 16:03:37,041 - INFO - Best svm Classifier Accuracy: 0.8235294117647058
+2024-11-24 16:03:37,042 - INFO - Best Parameters: {'C': 1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:03:37,044 - INFO - Evaluating model...
+2024-11-24 16:03:37,044 - INFO - Accuracy: 82.35%
+2024-11-24 16:03:37,044 - INFO - Confusion Matrix:
+[[ 0  0  1]
+ [ 0  1  1]
+ [ 0  1 13]]
+LoggingObserver: Accuracy: 82.35%
+2024-11-24 16:09:12,372 - INFO - Loading dataset: 1
+2024-11-24 16:09:12,382 - INFO - Preprocessing data...
+2024-11-24 16:09:12,383 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:09:12,383 - INFO - Vectorizing data...
+2024-11-24 16:09:12,385 - INFO - Vectorization complete.
+2024-11-24 16:09:14,732 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:09:14,732 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Received update - {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 16:09:14,792 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 16:09:14,793 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:09:14,793 - INFO - Evaluating model...
+2024-11-24 16:09:14,793 - INFO - Accuracy: 56.00%
+2024-11-24 16:09:14,795 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Received update - {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 16:11:57,764 - INFO - Loading dataset: 1
+2024-11-24 16:11:57,772 - INFO - Preprocessing data...
+2024-11-24 16:11:57,775 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:11:57,776 - INFO - Vectorizing data...
+2024-11-24 16:11:57,779 - INFO - Vectorization complete.
+2024-11-24 16:11:59,616 - INFO - Choosing logistic_regression classifier with hyperparameter tuning.
+LoggingObserver: Received update - {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 16:11:59,667 - INFO - Best logistic_regression Classifier Accuracy: 0.56
+2024-11-24 16:11:59,669 - INFO - Best Parameters: {'C': 0.1, 'solver': 'liblinear'}
+2024-11-24 16:11:59,669 - INFO - Evaluating model...
+2024-11-24 16:11:59,669 - INFO - Accuracy: 56.00%
+2024-11-24 16:11:59,670 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Received update - {'accuracy': '56.00%', 'confusion_matrix': [[0, 9, 0], [0, 14, 0], [0, 2, 0]]}
+2024-11-24 16:14:48,102 - INFO - Loading dataset: 1
+2024-11-24 16:14:48,110 - INFO - Preprocessing data...
+2024-11-24 16:14:48,111 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:14:48,112 - INFO - Vectorizing data...
+2024-11-24 16:14:48,113 - INFO - Vectorization complete.
+2024-11-24 16:14:49,693 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:14:49,693 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:14:49,762 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 16:14:49,762 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:14:49,762 - INFO - Evaluating model...
+2024-11-24 16:14:49,762 - INFO - Accuracy: 56.00%
+2024-11-24 16:14:49,763 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:32:17,678 - INFO - Loading dataset: 1
+2024-11-24 16:32:17,687 - INFO - Preprocessing data...
+2024-11-24 16:32:17,688 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:32:17,688 - INFO - Vectorizing data...
+2024-11-24 16:32:17,689 - INFO - Vectorization complete.
+2024-11-24 16:32:19,112 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:32:19,112 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:32:19,174 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 16:32:19,174 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:32:19,174 - INFO - Evaluating model...
+2024-11-24 16:32:19,175 - INFO - Accuracy: 56.00%
+2024-11-24 16:32:19,175 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:32:20,972 - INFO - Exiting email classification system.
+2024-11-24 16:35:02,075 - INFO - Loading dataset: 1
+2024-11-24 16:35:02,083 - INFO - Preprocessing data...
+2024-11-24 16:35:02,086 - INFO - Preprocessing complete. Email body cleaned.
+2024-11-24 16:35:02,086 - INFO - Vectorizing data...
+2024-11-24 16:35:02,092 - INFO - Vectorization complete.
+2024-11-24 16:35:05,273 - INFO - Choosing svm classifier with hyperparameter tuning.
+2024-11-24 16:35:05,273 - INFO - Performing grid search for hyperparameter tuning.
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:35:05,336 - INFO - Best svm Classifier Accuracy: 0.56
+2024-11-24 16:35:05,337 - INFO - Best Parameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2024-11-24 16:35:05,338 - INFO - Evaluating model...
+2024-11-24 16:35:05,338 - INFO - Accuracy: 56.00%
+2024-11-24 16:35:05,338 - INFO - Confusion Matrix:
+[[ 0  9  0]
+ [ 0 14  0]
+ [ 0  2  0]]
+LoggingObserver: Accuracy: 56.00%
+2024-11-24 16:35:07,355 - INFO - Exiting email classification system.

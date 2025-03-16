@@ -1,0 +1,4 @@
+{
+    "logging_file": "app.log",
+    "dataset_path": "data/dataset.csv"
+}
